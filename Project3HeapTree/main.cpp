@@ -93,7 +93,7 @@ void readCSV(const string& filename, vector<Node>& heap) {
 int main() {
     vector<Node> heap;
 
-    string filename = "C:\\Users\\gabri\\CLionProjects\\Project3HeapTree\\Tik Kroks Data Set.csv";  // Change this to the path of your CSV file
+    string filename = "Tik Kroks Data Set.csv";
     readCSV(filename, heap);
 
     while (true) {
