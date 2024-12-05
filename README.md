@@ -17,7 +17,7 @@ Note that, using the full data set of YouTube videos, it is very difficult to ge
 This algorithm utilizes a splay tree to sort videos by recent searches, with the most recently viewed video at the top of the tree.
 The program takes in the data set of videos (Tik Kroks Data Set) and will be initalized with the last 5 elements of the data set as essentially these are the most recently searched videos.
 
-To "watch" a video:
+To "watch/search" a video:
 1. Type 1 or 2 when prompted to search for a video by title or ID, respectively.
 2. Enter the title/ID of the video you want to watch when prompted.
 3. The video is now "searched" and it will be pushed to the root.
